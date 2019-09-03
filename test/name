@@ -1,7 +1,17 @@
 <html>
 <body>
 <p id = ezra style = display:none;> Ezra</p>
+
+<button type="button" onclick="display()"Show Name</button>
+<button type="button" onclick="hide()"Hide Name</button>
+
 <script>
+function hide() {
+ document.getElementById("ezra").display = none;
+ 
+}function display() {
+ document.getElementById("ezra").display = block;
+}
 </script>
 </body>
 </html>
