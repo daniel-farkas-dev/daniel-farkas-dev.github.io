@@ -17,4 +17,5 @@ The attendence program will work any any device thanks to Bootstrap.
 As long as the device is connected to internet the program will work.
 
 ### Feedback
-Feedback would be greatly appreciated. Send all questions and comments at
+Feedback would be greatly appreciated.
+Leave all questions and comments at https://github.com/daniel-farkas-dev/daniel-farkas-dev.github.io/issues.
