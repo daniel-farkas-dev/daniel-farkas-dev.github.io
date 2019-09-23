@@ -12,3 +12,9 @@ The attendence program is located at  https://daniel-farkas-dev.github.io/sandbo
 * in class attendence
 * after school programs
 
+## Devices
+The attendence program will work any any device thanks to Bootstrap.
+As long as the device is connected to internet the program will work.
+
+### Feedback
+Feedback would be greatly appreciated. Send all questions and comments at
