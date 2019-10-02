@@ -13,14 +13,10 @@ The attendence program is located at  https://daniel-farkas-dev.github.io/sandbo
 * after school programs
 
 ## Devices
-The attendence program will work any any device thanks to Bootstrap.
+The attendence program will work any any device.
 As long as the device is connected to internet the program will work.
 
-## Permissions
-This program has an MIT lisence.
-Please do not sell this program without it.
-If you have any issues with the lisence or would like permission to do anything the lisence forbids reach me at
-https://github.com/daniel-farkas-dev/daniel-farkas-dev.github.io/issues.
+
 
 ### Feedback
 Feedback would be greatly appreciated.
