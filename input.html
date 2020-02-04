@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-<p id="para">
-</p>
-<input type="text" id="itext" />
-<script>
-var x = document.getElementById("itext").value;
-document.getElementById("para").innerHTML =x;
-</script>
-</body>
+  <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+  </head>
+  <body>
+    <p id="para"></p>
+    <form id = "form">
+      <input type="text" id="itext" />
+      <input type="submit" id="submit"/>
+    </form>
+    <script>
+       var textEl = document.getElementById("itext");
+       var submitEl = document.getElementById("form");   
+       submitEl.addEventListener("submit",changeText);
+      cnangeText = function(){ document.getElementById("para").innerHTML =textEl.value;}
+    </script>
+  </body>
 </html>
