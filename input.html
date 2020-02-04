@@ -6,15 +6,15 @@
   </head>
   <body>
     <p id="para">Text</p>
-    <form id = "form">
       <input type="text" id="itext" />
       <input type="submit" id="submit"/>
-    </form>
+    <p id="para2">Text</p>
     <script>
-       var textEl = document.getElementById("itext");
-       var submitEl = document.getElementById("form");   
-       submitEl.addEventListener("submit",changeText());
-      cnangeText = function(){ document.getElementById("para").innerHTML =textEl.value;}
+       var nameEl = document.getElementById("itext");
+       var submitEl = document.getElementById("submit");  
+       var para2El = document.getElementById("para2");
+       submitEl.addEventListener("click",changeText);
+      cnangeText = function(){para2El.innerHTML =nameEl.value;}
     </script>
   </body>
 </html>
