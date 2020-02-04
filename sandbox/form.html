@@ -128,6 +128,7 @@ hr {
 
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  
   <form class="modal-content" >
 
     <div class="container">
@@ -139,8 +140,18 @@ hr {
 
 
       <label>
-        <label for="email"><b>Name</b></label>
-        <input type="text" placeholder="Enter Name" name="Name" required>
+        <label for="first"><b> First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="fName" id = "fname" required>
+      </label>
+      
+      <label>
+        <label for="last"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" name="lName" id = "lname" required>
+      </label>
+      
+      <label>
+        <label for="DOB"><b>Name</b></label>
+        <input type="date" placeholder="01-01-2000" name="dob" id = "dob" required>
       </label>
 
 
@@ -162,6 +173,11 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+  
+  // Save form node locations as variables
+  var fname = document.getElementById("fname");
+  var lname = document.getElementById("lname");
+  var dob = document.getElementById("dob");
 </script>
 <p> <script> name </script> </P>
 </body>
