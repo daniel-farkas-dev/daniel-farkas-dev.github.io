@@ -5,7 +5,7 @@
         <title>Form</title>
   </head>
   <body>
-    <p id="para"></p>
+    <p id="para">Text</p>
     <form id = "form">
       <input type="text" id="itext" />
       <input type="submit" id="submit"/>
@@ -13,7 +13,7 @@
     <script>
        var textEl = document.getElementById("itext");
        var submitEl = document.getElementById("form");   
-       submitEl.addEventListener("submit",changeText);
+       submitEl.addEventListener("submit",changeText());
       cnangeText = function(){ document.getElementById("para").innerHTML =textEl.value;}
     </script>
   </body>
