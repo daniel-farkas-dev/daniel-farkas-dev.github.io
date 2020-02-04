@@ -5,16 +5,18 @@
         <title>Form</title>
   </head>
   <body>
-    <p id="para">Text</p>
-      <input type="text" id="itext" />
-      <input type="submit" id="submit"/>
-    <p id="para2">Text</p>
+    <p id = "para"> Enter Your Name Below </p>
+      <input type = "text"  id = "itext"/>
+      <input type = "submit" id = "submit"/>
+    <p id = "para2"> Text </p>
     <script>
        var nameEl = document.getElementById("itext");
        var submitEl = document.getElementById("submit");  
        var para2El = document.getElementById("para2");
+       var changeText = function(){
+         para2El.innerHTML = "Hello " + nameEl.value;
+       };
        submitEl.addEventListener("click",changeText);
-      cnangeText = function(){para2El.innerHTML =nameEl.value;}
     </script>
   </body>
 </html>
