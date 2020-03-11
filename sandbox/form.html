@@ -155,7 +155,7 @@ hr {
 
       <div class="clearfix">
         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" id="submitBtn" class="signupbtn">Add New Attendee</button>
+        <button type="submit" id="submitBtn" onclick="document.getElementById('id01').style.display='none'" class="signupbtn">Add New Attendee</button>
       </div>
     </div>
 </div>
@@ -182,9 +182,11 @@ window.onclick = function(event) {
   
   // Create an onSubmit function
   var onSubmit = function(){
-    atendee1.innerHtml="'Name:'+lname.value+', '+fname.value'+<br>+'DOB:'+dob.value"
-  }
+    atendee1.innerHtml= 'Name:' + lname.value + ', ' + fname.value + ' DOB:' +dob.value;
+  };
   
+  // Running the function onClick
+  submitBtn.addEventListener("click",onSubmit);
   </script>
 </body>
 </html>
