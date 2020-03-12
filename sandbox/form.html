@@ -172,9 +172,9 @@ window.onclick = function(event) {
 }
   
   // Save form node locations as variables
-  var fname = document.getElementById("fname");
-  var lname = document.getElementById("lname");
-  var dob = document.getElementById("dob");
+  var fname = document.getElementById("fname").value;
+  var lname = document.getElementById("lname").value;
+  var dob = document.getElementById("dob").value;
   var submitBtn = document.getElementById("submitBtn");
 
   //Get the div for attendee1
@@ -182,7 +182,8 @@ window.onclick = function(event) {
   
   // Create an onSubmit function
   var onSubmit = function(){
-    atendee1Para.innerHtml= "'Name:' + lname.value + ', ' + fname.value + ' DOB:' +dob.value";
+    var message ="Name: " + lname + ", " + fname + " DOB: " + dob;
+    atendee1Para.innerHtml= message;
   };
   
   // Running the function onClick
