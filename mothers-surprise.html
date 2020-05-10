@@ -5,6 +5,9 @@
         width:100vw;
         height:100vh;
       }
+      #demo{
+       text-align: center;
+      }
     </style>
   </head>
 <body>
@@ -12,14 +15,16 @@
   <source src="surprise-video.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-  <h1 id ="demo"></h1>
+  <h1 id ="head"></h1>
+  <h2 id ="credit>>/h2>
   <script>
 var video = document.getElementById("video");
     
 video.onended = function() {myFunction()};
 function myFunction() {
   video.remove();
-  document.getElementById("demo").innerHTML = "Happy Mothers day.";
+  document.getElementById("head").innerHTML = "Happy Mothers day.";
+  document.getElementById("credit").innerHTML = "From all three brothers!";
 }
 </script>
   </body>
