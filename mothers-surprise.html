@@ -18,13 +18,16 @@ Your browser does not support the video tag.
   <h1 id ="head"></h1>
   <h2 id ="credit></h2>
   <script>
+ <h1 id ="demo"></h1>
+  <script>
 var video = document.getElementById("video");
-    
+
 video.onended = function() {myFunction()};
 function myFunction() {
   video.remove();
   document.getElementById("head").innerHTML = "Happy Mothers day.";
-  document.getElementById("credit").innerHTML = "From all three brothers!";
+}
+</script>
 }
 </script>
   </body>
