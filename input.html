@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+  </head>
+  <body>
+    <p id = "para"> Enter Your Name Below </p>
+      <input type = "text"  id = "itext"/>
+      <input type = "submit" id = "submit"/>
+    <p id = "para2"> Text </p>
+    <script>
+       var nameEl = document.getElementById("itext");
+       var submitEl = document.getElementById("submit");  
+       var para2El = document.getElementById("para2");
+       var changeText = function(){
+         para2El.innerHTML = "Hello " + nameEl.value;
+       };
+       submitEl.addEventListener("click",changeText);
+    </script>
+  </body>
+</html>
