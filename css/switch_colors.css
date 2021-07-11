@@ -2,6 +2,6 @@ div[data-present="absent"] {
   background-color: red;
 }
 
-div[data-present="absent"] {
+div[data-present="present"] {
   background-color: green;
 }
