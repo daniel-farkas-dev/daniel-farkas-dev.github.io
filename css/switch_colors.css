@@ -1,2 +1,7 @@
-/* CSS Document */
+div[data-present="absent"] {
+  background-color: red;
+}
 
+div[data-present="absent"] {
+  background-color: green;
+}
