@@ -1,4 +1,4 @@
-document.addEventListener('click', function (e) {
+document.getElementById('og-card').addEventListener('click', function (e) {
    updateTag(e);
 }, false);
 
