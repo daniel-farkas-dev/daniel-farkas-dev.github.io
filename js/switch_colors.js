@@ -20,4 +20,5 @@ function updateTag(e) {
    function came(target) {
       target.setAtribute('data-present', 'absent');
    }
+    consolo.log("hope");
 }
