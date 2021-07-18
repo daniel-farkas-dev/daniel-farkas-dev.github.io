@@ -6,9 +6,12 @@ function updateTag(e) {
    switch (e.target.getAttribute('data-present')) {
       case 'present':
          left(e.target);
+         console.log("case present");
          break;
       case 'absent':
          came(e.target);
+         console.log("case present");
+
          break;
    }
 
