@@ -3,7 +3,7 @@ document.getElementById('og-card').addEventListener('click', function (e) {
 }, false);
 
 function updateTag(e) {
-   switch (e.target.getAttribute('data-present')) {
+/*   switch (e.target.getAttribute('data-present')) {
       case 'present':
          left(e.target);
          console.log("case present");
@@ -11,10 +11,8 @@ function updateTag(e) {
       case 'absent':
          came(e.target);
          console.log("case present");
-
-         break;
+           break;
    }
-
 
    function left(target) {
      // target.setAtribute('data-present', 'absent');
@@ -25,6 +23,7 @@ function updateTag(e) {
      // target.setAtribute('data-present', 'present');
               this.style.color = "green";
 
-   }
+   }*/
+    e.target.style.color = "green";
     console.log("hope");
 }
