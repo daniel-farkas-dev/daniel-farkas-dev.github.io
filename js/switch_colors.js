@@ -14,11 +14,14 @@ function updateTag(e) {
 
 
    function left(target) {
-      target.setAtribute('data-present', 'absent');
+     // target.setAtribute('data-present', 'absent');
+       this.style.color = "red";
    }
 
    function came(target) {
-      target.setAtribute('data-present', 'absent');
+     // target.setAtribute('data-present', 'present');
+              this.style.color = "green";
+
    }
     console.log("hope");
 }
