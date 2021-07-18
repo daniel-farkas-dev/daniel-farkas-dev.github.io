@@ -3,27 +3,24 @@ document.getElementById('og-card').addEventListener('click', function (e) {
 }, false);
 
 function updateTag(e) {
-/*   switch (e.target.getAttribute('data-present')) {
+    var el = e.target.parent;
+   switch (el.getAttribute('data-present')) {
       case 'present':
-         left(e.target);
+         left(el);
          console.log("case present");
          break;
       case 'absent':
-         came(e.target);
-         console.log("case present");
+         came(el);
+         console.log("case absent");
            break;
    }
 
    function left(target) {
-     // target.setAtribute('data-present', 'absent');
-       this.style.color = "red";
+      target.setAtribute('data-present', 'absent');
    }
 
    function came(target) {
-     // target.setAtribute('data-present', 'present');
-              this.style.color = "green";
-
-   }*/
-    e.target.style.color = "green";
+      target.setAtribute('data-present', 'present');
+   }
     console.log("hope");
 }
